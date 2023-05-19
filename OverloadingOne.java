@@ -8,10 +8,6 @@ public class OverloadingOne {
         System.out.println("display(int a)  called");
     }
 
-    int display(int a) {
-        return a + 10;
-    }
-
     void display(byte a) {
         System.out.println("display(byte a) called");
     }
