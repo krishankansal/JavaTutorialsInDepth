@@ -1,0 +1,26 @@
+The static can be:
+------------------  
+    1. Variable (also known as a class variable)
+    2. Method (also known as a class method)
+    3. Block
+    4. Nested class
+
+
+static variables in java
+------------------------
+
+1. static variables are known as class variables.
+    - a class can contain two types of variables
+        a) instance variables (non-static variables)
+        b) class variables (static variables)
+
+2. static variables behaves like global variables.
+
+3. when object of a class is created or declared no copy
+   of static variables is made. Instead all instances of
+   of class share the same static variable.
+
+4. They can be called without creating instance of  the class.
+
+5. They can be called with class name.
+
