@@ -1,0 +1,27 @@
+static methods in java
+----------------------
+
+Q. What is a Static Method in Java?
+A. A static method is a method that belongs to a class rather than an instance of a class. This means you can call a static method without creating an object of the class. Static methods are called class methods.
+
+Features of static method:
+--------------------------
+
+1. A static method in Java is a method that is part of a class rather than  an instance of that class.
+
+2. Every instance of a class has access to the method.
+
+3. Static methods have access to class variables (static variables)  without using the class’s object (instance).
+
+4. Only static data may be accessed by a static method. It is unable to access data that is not static (instance variables).
+
+5. In both static and non-static methods, static methods can be accessed directly.
+
+6. Utility classes frequently employ static methods.
+
+Methods declared as static have several restrictions:
+------------------------------------------------------
+    • They can only directly call other static methods of their class.
+    • They can only directly access static variables of their class.
+    • They cannot refer to this or super in any way. (The keyword super relates to inheritance and is described in the later videos.)
+
