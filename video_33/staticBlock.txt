@@ -1,0 +1,5 @@
+Static Block in Java
+--------------------
+If you need to do computation in order to initialize your static variables, you
+can declare a static block that gets executed exactly once, when the class is
+first loaded.
