@@ -1,0 +1,21 @@
+command line arguments
+----------------------
+
+Sometimes you will want to pass information into a program when you run it.
+This is accomplished by passing command-line arguments to main( ).
+
+To access the command-line arguments inside a Java program is quite easy—they are stored as strings in a String array passed to the args parameter of main( ). The first command-line argument is stored at args[0], the second at args[1], and so on.
+
+javac A.java
+java A 10 20 
+main(String args[]) "10" 
+
+
+
+
+
+
+
+
+
+
