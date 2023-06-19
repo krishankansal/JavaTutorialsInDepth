@@ -1,0 +1,59 @@
+Strings 
+-------
+String manipulation is arguably one of the most common 
+activities in computer programming. 
+
+This is especially true in Web systems, where Java is heavily used.
+
+Example : firstName, lastName,userName, password, address and so on.
+
+Every string you create is actually an object of type String.
+
+For Example
+-----------
+In the statement
+
+System.out.println("This is a String, too");
+
+The string "This is a String, too" is a String object.
+
+There are three methods for creating string objects
+---------------------------------------------------
+
+1. String str = "Learning java needs devotion"; // string literal
+2. String str1 = "Learning" + "java" + "needs" + "devotion";
+3. String str2 = new String("Learning java needs devotion");
+
+Demo program : A.java and B.java
+
+Methods in Strings class
+------------------------
+1. char    charAt(int index)    -> Demo C.java
+2. String  concat(String str)  -> Demo C.java
+3. String  toUpperCase()       -> Demo C.java
+4. String  toLowerCase()       -> Demo C.java
+5. String  strip()             -> Demo C.java
+6. int     indexOf(int ch)     -> Demo C.java
+7. int     length()            -> Demo C.java
+
+BankBrach - > Customers c1
+
+https://docs.oracle.com/en/java/javase/20/docs/api/java.base/java/lang/String.html
+API - application programming interface
+class
+method
+property
+
+in
+out
+err
+
+
+
+Some important points to remember in System.out.println()  -> Demo  D.java
+
+System is a class in java.lang package.   ---> See in the documentation
+out is the static property in class System.     ---> See in the documentation
+Out property refers to the object of PrintStream ---> See in the documentation
+class PrintStream containd the method print() and println() ---> See in the documentation
+
