@@ -1,0 +1,84 @@
+Nested and Inner Classes
+-------------------------
+1. In Java it is possible to define a class within another class, such
+   classes are known as inner classes.
+
+   ----------------------OR--------------------------------
+
+   When we define one class inside another class, its called a Nested class.
+   The nested class can not exist independently and is always dependent on the Outer class.
+
+   Thus, if class B is defined within class A, then B does not exist
+   independently of A.
+
+   class A{
+
+      class B{
+
+      }
+
+   }
+
+
+   More practical Example
+   ######################
+
+   // Outer class
+   class Parcel{
+
+        // Inner class
+        class Dispach{
+
+        }
+
+   }
+
+   --> These Dispach class logically only belongs to class Parcel.
+   --> No one in complete software, is going to use class Dispatch in API.
+
+2. "Why inner classes?" 
+    A Nested class has access to the members, including private members of the class
+   in which it is nested (This mean that inner class can communicate with outer class 
+   in any possible manner). But the outer/enclosing class does not have access to the members
+   of the inner class.   
+
+3. A nested class is also a member of its enclosing class.
+
+4. As a member of its enclosing class, a nested class can be declared
+        a) private
+        b) public
+        c) protected
+        d) default (No access specifiar)
+        e) static
+
+There are basically four types of inner classes in java.
+--------------------------------------------------------
+   1. Nested Inner Class
+   2. Method Local Inner Classes
+   3. Static Nested Classes
+   4. Anonymous Inner Classes 
+
+1: Nested Inner Class 
+---------------------
+
+Advantages of java inner classes
+ 
+Here are some advantages of inner classes in java :
+ 
+1) Inner classes represent a special type of relationship with outer class; i,e. it can access all the members (data members and methods) of outer class including private.
+ 
+2) The inner class is supposed to be used where it is useful in context of outer class object only. For example, Dispacth class can be relevant to Parcel only. So, it makes sense to put it as an Inner class.
+ 
+3) Nested classes are used to develop more readable and maintainable code because it logically group classes and interfaces in one place only.
+
+video_39
+
+2: Method Local Inner Classes 
+-----------------------------
+
+In Java, we can write a class within a method and this will be a local type. Like local variables, the scope of the inner class is restricted within the method.
+
+A method-local inner class can be instantiated only within the method where the inner class is defined. 
+
+Demo  -> C.Java
+
