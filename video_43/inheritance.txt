@@ -1,0 +1,73 @@
+Inheritane (Reusing Classes)
+----------------------------
+One of the most compelling features about Java is code reuse.
+
+you’ve got to be able to do a lot more than copy code 
+and change it.
+
+You reuse code by creating new classes, but instead of creating them from scratch, you use existing classes that someone has already built and tested.
+
+The trick is to use the classes without soiling the existing code.
+
+Practical sesion
+----------------
+1. Design a class Figure with three methods in package art
+    i.   void draw()
+    ii.  void color()
+    iii. void render()
+    iv.  void resize()
+
+2. Design a class Rectangle and extend this class with class Figure
+   all three methods with the help of Rectangle class object.
+
+3. Try to make method render() private.(See the error)
+    and make method void resize() proteted
+
+4. public, default, protected methods are inherited.(see them pratically)
+
+5. public in any package.
+
+6. default in same package.
+
+7. protected in same package or by a subclass in defferent package.
+    (Practically do it)
+
+8. private with in the class only.
+
+9. make one another class Cicle in packge gen, try to access all the
+   methods of class Figure. Note the things and pen it down.
+
+ 10. define method void area() in class Circle or figure.
+        --- subclass can also define methods of their own.
+
+What about properties(instance variables) will see in video_42
+
+
+
+Why inheritance?
+
+1. Inheritance in Java is a mechanism in which one object acquires all the properties and behaviors of a parent object.
+
+2. Inheritance represents the IS-A relationship which is also known as a parent-child relationship.
+
+Vehical
+
+class car extends Vehical
+
+
+
+Types of Inheritance
+
+Object of super class can always refer to the object of subclass.
+
+super()
+
+
+
+
+LIKE
+SHARE
+PRESS BELL ICON
+COMMENT
+
+super() in video_44
