@@ -1,0 +1,30 @@
+Abstract Classes
+----------------
+
+Q1. What is dictionary meaning of abstarct?
+A1. existing only as an idea, not as a physical thing.
+
+
+Q2. What is a abstract method?
+A2. A method without body is known as abstract method.
+
+    For Example
+        
+        void area();
+
+
+Q3. What is abstract class?
+A3. If a class contains one or more abstract methods then class is known as abstract class. 
+    It may have both abstract and non-abstract methods(methods with bodies).
+    It can have constructors and static methods also.
+    It cannot be instantiated.(We cannot create the object of abstract class).
+    Although abstract classes cannot be used to instantiate objects, they can be used to create object references.
+
+
+Q4. Why to create abstract class?
+A4. It ensure user, to provide the implementation. 
+when a superclass is unable to create a meaningful implementation for a method.
+
+final keyword in video_47
+
+
