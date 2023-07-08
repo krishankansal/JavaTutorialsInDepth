@@ -1,0 +1,30 @@
+Interfaces
+----------
+That is, using interface, you can specify what a class must do,
+but not how it does it.
+
+one class can implement any number of interfaces.
+
+variables can be declared inside interface declarations. 
+They are implicitly final and static, meaning they cannot be changed by the implementing class. They must also be initialized. 
+
+All methods and variables are implicitly public.
+
+public 
+protected
+default
+private
+---------------------------------------------
+interface ServiceProvider{
+    
+}
+
+class Airtel implements ServiceProvider
+class Vodafone implements ServiceProvider
+class Jio implements ServiceProvider
+
+Airtel airtel = new Airtel();
+
+ServiceProvider airtel = new Airtel();
+
+
