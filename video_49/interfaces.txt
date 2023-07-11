@@ -1,0 +1,78 @@
+Video_48
+
+Interfaces
+----------
+That is, using interface, you can specify what a class must do,
+but not how it does it.
+
+one class can implement any number of interfaces.
+
+variables can be declared inside interface declarations. 
+They are implicitly final and static, meaning they cannot be changed by the implementing class. They must also be initialized. 
+
+All methods and variables are implicitly public.
+
+public 
+protected
+default
+private
+---------------------------------------------
+interface ServiceProvider{
+    
+}
+
+class Airtel implements ServiceProvider
+class Vodafone implements ServiceProvider
+class Jio implements ServiceProvider
+
+Airtel airtel = new Airtel();
+
+ServiceProvider airtel = new Airtel();
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Video_49
+
+1. If a class implements an interface but do  not override all its methods then that class must be declared as abstract.
+
+Demo ==> D.java
+
+2. A class can be extended with another class and can also implements an interface.
+
+class Rectangle extends Figure implemets Png, Jpeg 
+
+3. An interface can only be public or default,
+   it cannot be protected or private.
+
+   Demo ==> Try this in A.java
+
+4. Java Nested Interface
+   ---------------------
+   a) An interface, can be declared within another interface or class, is known as a nested interface or member interface.
+
+   b) Nested interface inside another interface
+      -----------------------------------------
+
+        1. nested interface with in interface is
+           by default is public. It cannot be protected
+           or private.
+
+           Demo ==> NestedInterfaceInInterface.java 
+
+        2. Every nested interface is static by default.
+
+        Demo ==> NestedInterfaceInInterface.java
+
+    c) Nested interface inside a class
+       -------------------------------
+       The nested interface that defined inside a class must be accessed as 
+       ClassName.InnerInterface
+
+       Demo ==> NestedInterfaceInClass.java
+        
+5. An interface can extend with other interface 
+
+
+
+
+
+
